@@ -401,6 +401,9 @@
         $tbg_response->addJavascript('jquery.contextMenu.js');
         $tbg_response->addJavascript('contextualMenuHandler.js');
         // END:     Added contectual menu
+        // START    Added neste sortable lib
+        $tbg_response->addJavascript('jquery.mjs.nestedSortable.js');
+        // END      Added neste sortable lib
         
 		$jsstrings = array();
 		$sepjs = array();
